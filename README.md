@@ -1,3 +1,17 @@
+# (unofficial) Containerization of Engineering Paper
+
+This repository is a fork of [EngineeringPaper.xyz](https://github.com/mgreminger/EngineeringPaper.xyz).
+
+The purpose of this fork is to provide a **containerized deployment** of EngineeringPaper.xyz, enabling offline usage and local hosting without external services. This allows the application to be run in environments where network connectivity is limited or unavailable.
+
+Foreseen use cases include:
+
+- Installation on systems where it is undesirable to install application-specific dependencies on the host system (e.g. shared or school computers)
+- Use while traveling when internet connection is not available, providing a consistent experience across different systems (Windows, Linux, ChromeOS)
+
+All application logic, UI, and functionality are unchanged from the original repository.  
+Only deployment-related files have been added (Dockerfile, Nginx configuration, and CI tooling).
+
 # [![EngineeringPaper.xyz](https://user-images.githubusercontent.com/6439649/212795699-7cc908e1-00a4-44ed-a034-695f056ee84a.png)](https://engineeringpaper.xyz)
 
 
