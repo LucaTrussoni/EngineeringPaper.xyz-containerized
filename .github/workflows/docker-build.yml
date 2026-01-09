@@ -29,4 +29,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ghcr.io/LucaTrussoni/engineeringpaper:latest
+          tags: ghcr.io/lucatrussoni/engineeringpaper:latest
