@@ -10,7 +10,9 @@ Foreseen use cases include:
 - Use while traveling when internet connection is not available, providing a consistent experience across different systems (Windows, Linux, ChromeOS)
 
 All application logic, UI, and functionality are unchanged from the original repository.  
-Only deployment-related files have been added (Dockerfile, Nginx configuration, and CI tooling).
+Only deployment-related files have been added (Dockerfile, Nginx configuration).
+Playwright workflow has been removed in this fork to avoid unnecessary CI runs.
+
 
 # [![EngineeringPaper.xyz](https://user-images.githubusercontent.com/6439649/212795699-7cc908e1-00a4-44ed-a034-695f056ee84a.png)](https://engineeringpaper.xyz)
 
